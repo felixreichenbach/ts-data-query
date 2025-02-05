@@ -16,6 +16,14 @@ nvm use 22
 
 From within the project folder run `npm install`
 
+Create a `.env` file with the following content (replace the variable values with your credentials!):
+
+```
+VITE_ORG_ID="<ORG-ID>"
+VITE_API_KEY_ID="<API-KEY-ID>"
+VITE_API_KEY_SECRET="<API-KEY>"
+```
+
 ## Usage
 
 Run `npm run dev` and visit `localhost:5173` in a browser. Press the button to execute the logic defined in `src/main.ts`.
