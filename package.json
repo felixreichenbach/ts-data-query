@@ -14,8 +14,6 @@
   },
   "dependencies": {
     "@viamrobotics/sdk": "^0.35.2",
-    "bson": "^6.10.2",
-    "bsonify": "^0.1.0",
-    "mongodb": "^6.13.0"
+    "bsonify": "^0.1.0"
   }
 }
