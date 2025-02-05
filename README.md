@@ -16,7 +16,7 @@ nvm use 22
 
 From within the project folder run `npm install`
 
-Create a `.env` file with the following content (replace the variable values with your credentials!):
+Create a `.env` file in the project folder with the following content (replace the variable values with your credentials!):
 
 ```
 VITE_ORG_ID="<ORG-ID>"
