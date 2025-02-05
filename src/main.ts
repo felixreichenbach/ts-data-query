@@ -38,11 +38,6 @@ async function run(client: VIAM.ViamClient) {
     // MQL Query
     const jsonQuery = [
       {
-        $match: {
-          organization_id: "96b696a0-51b9-403b-ae0d-63753923652f",
-        },
-      },
-      {
         $limit: 5,
       },
     ];
